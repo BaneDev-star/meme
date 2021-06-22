@@ -1,0 +1,52 @@
+@import "/src/styles/variables/common";
+@import "/src/styles/mixins/breakpoints";
+
+
+.sectionFour {
+ margin-top: 92px;
+ background: url("/assets/img/home/background.svg") center/cover no-repeat;
+ min-height: 553px;
+
+ .sectionFourContainer {
+  background: url("/assets/img/home/section4_bg.svg") center/cover no-repeat;
+  min-height: 553px;
+
+  .left {
+   overflow: hidden;
+   .image {
+    margin-left: -72px;
+    margin-top: 25px;
+   }
+  }
+
+  .right {
+   max-width: 380px;
+   .title {
+    font-family: Rajdhani;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: bold;
+    color: #ffffff;
+   }
+
+   .info {
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 20px;
+   }
+
+   .iconGroup {
+    display: flex;
+    margin-top: 24px;
+    .icon {
+     width: auto;
+     height: 30px;
+     margin-right: 15px;
+    }
+   }
+  }
+ }
+}

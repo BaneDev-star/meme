@@ -1,0 +1,105 @@
+@import "/src/styles/variables/common";
+@import "/src/styles/mixins/breakpoints";
+
+
+.sectionFive {
+ margin: 85px auto 0;
+ background-image: url("/assets/img/home/join.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ max-width: 1080px;
+ height: 300px;
+ border-radius: 10px;
+ .wrapper {
+  height: 300px;
+  .information {
+   padding: 0 0 0 70px;
+   .content {
+    .heading {
+     font-size: 35px;
+     font-family: Rajdhani;
+     font-weight: bold;
+     line-height: 1;
+     color: #ffffff;
+    }
+    .buttonContainer {
+     display: flex;
+     margin-top: 22px;
+     .btn {
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+
+      .label {
+       font-size: 15px;
+       line-height: 2;
+       color: #ffffff;
+      }
+     }
+
+     .btnJoin {
+      background: url("/assets/img/home/join-btn-bg.svg") center/cover no-repeat;
+      border-radius: 5px;
+      width: 126.5px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      text-align: center;
+
+      .btnWrapper {
+       margin-left: auto;
+       margin-right: auto;
+      }
+
+      .telegramIcon {
+       width: 14.5px;
+       height: 12.5px;
+       margin-right: 5.5px;
+      }
+
+      .label {
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 2;
+       color: #ffffff;
+       padding: 0;
+      }
+     }
+
+     .btnContact {
+      background: url("/assets/img/home/coming-soon-btn-bg.svg") center/cover no-repeat;
+      border-radius: 5px;
+      width: 155px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+
+      .btnWrapper {
+       margin-left: auto;
+       margin-right: auto;
+      }
+
+      .label {
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 2;
+       color: #ffffff;
+       padding: 0;
+      }
+
+      .pancakeIcon {
+       width: 18px;
+       margin-right: 5.5px;
+      }
+     }
+    }
+   }
+  }
+ }
+}

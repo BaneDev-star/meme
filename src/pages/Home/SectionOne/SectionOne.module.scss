@@ -1,0 +1,124 @@
+@import "/src/styles/variables/common";
+@import "/src/styles/mixins/breakpoints";
+
+
+.sectionOne {
+ background: url("/assets/img/home/background.svg") center/cover no-repeat;
+
+ .headerContainer {
+  background: url("/assets/img/home/bg-watermark.webp") center/cover no-repeat;
+  min-height: 650px;
+  position: relative;
+
+  .leftHeader {
+   padding-left: 99.5px;
+   padding-top: 69px;
+
+   .title {
+    .heading {
+     font-size: 45px;
+     line-height: 1.22;
+     letter-spacing: -1.13px;
+     text-align: left;
+     color: $color-light;
+     font-weight: bold;
+    }
+   }
+
+   .detail {
+    font-size: 18px;
+    line-height: 1.67;
+    color: $color-light;
+    margin: 0;
+   }
+
+   .buttonContainer {
+    display: flex;
+    margin: 38px 0 35px;
+
+    .comingBtn {
+     display: flex;
+     align-items: center;
+     height: 44px;
+     border-radius: 6px;
+     border: 1px solid #eceef3;
+     margin-right: 13.5px;
+     width: auto;
+     font-size: 15px;
+     font-weight: 500;
+
+     .pancakeIcon {
+      width: 23px;
+      margin-right: 10.5px;
+     }
+    }
+
+    .comingBtn.game {
+     color: #0089fe;
+    }
+   }
+
+   .binanceSmart {
+    display: flex;
+    align-items: center;
+
+    .text1 {
+     font-size: 15px;
+     line-height: 1.6;
+     color: #ffffff;
+    }
+
+    .bnbIcon {
+     width: 18px;
+     margin: 0 8px;
+    }
+
+    .text2 {
+     font-size: 15px;
+     font-weight: 600;
+     line-height: 1.6;
+     color: #ffffff;
+    }
+   }
+  }
+
+  .rightHeader {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+
+   .baseImage {
+    width: 153.07%;
+    max-width: 903.5px;
+   }
+   .iStack1 {
+    position: absolute;
+    width: 112.5px;
+    height: 113px;
+    right: 64.5px;
+    top: -42px;
+   }
+   .iStack2 {
+    position: absolute;
+    width: 79.5px;
+    height: 76.5px;
+    left: 330px;
+    top: -44.5px;
+   }
+   .iStack3 {
+    position: absolute;
+    width: 50px;
+    height: 59px;
+    left: 250px;
+    bottom: 124px;
+   }
+   .iStack4 {
+    position: absolute;
+    width: 54px;
+    height: 57.5px;
+    right: 48px;
+    bottom: 254.5px;
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1300">
+    <defs>
+        <radialGradient id="9s0kpulpva">
+            <stop offset="0%" stop-color="#008AFF"/>
+            <stop offset="100%" stop-color="#0040A4"/>
+        </radialGradient>
+    </defs>
+    <path fill="url(#9s0kpulpva)" fill-rule="evenodd" d="M0 0h2559.999v1299.999H0V0z"/>
+</svg>

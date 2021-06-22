@@ -1,0 +1,62 @@
+@import "/src/styles/variables/common";
+@import "/src/styles/mixins/breakpoints";
+
+
+.footerContainer {
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 85px 0;
+ background: #fafbfa;
+
+ .footerWrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+ }
+
+ .logoContainer {
+  .logo {
+   height: 62px;
+   object-fit: contain;
+  }
+ }
+
+ .termContainer {
+  display: flex;
+  justify-content: center;
+  a {
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 2;
+   color: #22282a;
+   padding: 10px 20px;
+  }
+ }
+
+ .social {
+  width: 24.5px;
+  height: 24.5px;
+ }
+
+ .socialButton {
+  a {
+   margin-left: 15px;
+   img {
+    width: 24.5px;
+    object-fit: contain;
+   }
+  }
+ }
+
+
+ .socialButton, .socialButtonLabel {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .socialButtonLabel {
+  padding-right: 20px;
+  margin-bottom: 12.5px;
+  font-size: 18px;
+  font-weight: 500;
+ }
+}

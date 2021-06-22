@@ -1,0 +1,54 @@
+@import "/src/styles/variables/common";
+@import "/src/styles/mixins/breakpoints";
+
+
+.sectionTwo {
+ .item {
+  padding-top: 82px;
+ }
+
+ .itemOne {
+  display: flex;
+  align-items: center;
+ }
+
+ .itemTwo {
+  display: flex;
+  align-items: center;
+
+  .right {
+   display: flex;
+   justify-content: flex-end;
+
+   .itemIconTwo {
+    width: 732px;
+    object-fit: contain;
+   }
+  }
+ }
+
+ .title {
+  font-family: Rajdhani;
+  font-size: 35px;
+  line-height: 1.14;
+  letter-spacing: -0.88px;
+  text-align: left;
+  color: #22282a;
+ }
+
+ .info {
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 1.33;
+  text-align: left;
+  color: #282828;
+  margin-top: 20px;
+  max-width: 350px;
+ }
+
+ .itemIcon {
+  width: 732px;
+  height: 492px;
+  object-fit: contain;
+ }
+}
